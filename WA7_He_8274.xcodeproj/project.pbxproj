@@ -13,9 +13,26 @@
 		831191642AF2B8FB007FE1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831191622AF2B8FB007FE1FF /* Main.storyboard */; };
 		831191662AF2B8FD007FE1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831191652AF2B8FD007FE1FF /* Assets.xcassets */; };
 		831191692AF2B8FD007FE1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831191672AF2B8FD007FE1FF /* LaunchScreen.storyboard */; };
+		831191722AF2BC0C007FE1FF /* APIConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191712AF2BC0C007FE1FF /* APIConfigs.swift */; };
+		831191752AF2BD80007FE1FF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191742AF2BD80007FE1FF /* Note.swift */; };
+		831191772AF2C001007FE1FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191762AF2C001007FE1FF /* User.swift */; };
+		831191792AF2C016007FE1FF /* UserNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191782AF2C016007FE1FF /* UserNames.swift */; };
+		831191832AF2E5BD007FE1FF /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191822AF2E5BD007FE1FF /* ProfileDetailsViewController.swift */; };
+		831191852AF2E5CB007FE1FF /* ProfileDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191842AF2E5CB007FE1FF /* ProfileDetailsView.swift */; };
+		831191872AF2E5E5007FE1FF /* NoteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191862AF2E5E5007FE1FF /* NoteDetailsView.swift */; };
+		831191892AF2E5F3007FE1FF /* NoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191882AF2E5F3007FE1FF /* NoteDetailsViewController.swift */; };
+		8311918B2AF2E603007FE1FF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311918A2AF2E603007FE1FF /* RegisterViewController.swift */; };
+		8311918D2AF2E615007FE1FF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311918C2AF2E615007FE1FF /* RegisterView.swift */; };
+		8311918F2AF2E624007FE1FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311918E2AF2E624007FE1FF /* LoginView.swift */; };
+		831191912AF2E630007FE1FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191902AF2E630007FE1FF /* LoginViewController.swift */; };
+		831191932AF2E650007FE1FF /* TableViewNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191922AF2E650007FE1FF /* TableViewNoteCell.swift */; };
+		831191952AF2E689007FE1FF /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831191942AF2E689007FE1FF /* NoteListView.swift */; };
+		837ED58CC50B742BE3FAABE1 /* Pods_WA7_He_8274.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65487064C25F115F039294 /* Pods_WA7_He_8274.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17602DE8A74FDB2076CC13A1 /* Pods-WA7_He_8274.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_He_8274.release.xcconfig"; path = "Target Support Files/Pods-WA7_He_8274/Pods-WA7_He_8274.release.xcconfig"; sourceTree = "<group>"; };
+		3A65487064C25F115F039294 /* Pods_WA7_He_8274.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WA7_He_8274.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831191592AF2B8FB007FE1FF /* WA7_He_8274.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WA7_He_8274.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8311915C2AF2B8FB007FE1FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8311915E2AF2B8FB007FE1FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,21 @@
 		831191652AF2B8FD007FE1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831191682AF2B8FD007FE1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8311916A2AF2B8FD007FE1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831191712AF2BC0C007FE1FF /* APIConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfigs.swift; sourceTree = "<group>"; };
+		831191742AF2BD80007FE1FF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		831191762AF2C001007FE1FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		831191782AF2C016007FE1FF /* UserNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNames.swift; sourceTree = "<group>"; };
+		831191822AF2E5BD007FE1FF /* ProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		831191842AF2E5CB007FE1FF /* ProfileDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsView.swift; sourceTree = "<group>"; };
+		831191862AF2E5E5007FE1FF /* NoteDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailsView.swift; sourceTree = "<group>"; };
+		831191882AF2E5F3007FE1FF /* NoteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailsViewController.swift; sourceTree = "<group>"; };
+		8311918A2AF2E603007FE1FF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8311918C2AF2E615007FE1FF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8311918E2AF2E624007FE1FF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		831191902AF2E630007FE1FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		831191922AF2E650007FE1FF /* TableViewNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewNoteCell.swift; sourceTree = "<group>"; };
+		831191942AF2E689007FE1FF /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		D40A8FA614FE1C798BD0CD65 /* Pods-WA7_He_8274.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_He_8274.debug.xcconfig"; path = "Target Support Files/Pods-WA7_He_8274/Pods-WA7_He_8274.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837ED58CC50B742BE3FAABE1 /* Pods_WA7_He_8274.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47BE25BD25C68D4B525F22AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D40A8FA614FE1C798BD0CD65 /* Pods-WA7_He_8274.debug.xcconfig */,
+				17602DE8A74FDB2076CC13A1 /* Pods-WA7_He_8274.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		831191502AF2B8FB007FE1FF = {
 			isa = PBXGroup;
 			children = (
 				8311915B2AF2B8FB007FE1FF /* WA7_He_8274 */,
 				8311915A2AF2B8FB007FE1FF /* Products */,
+				47BE25BD25C68D4B525F22AF /* Pods */,
+				E6A8AFD0B3233FA972E8A95D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,101 @@
 		8311915B2AF2B8FB007FE1FF /* WA7_He_8274 */ = {
 			isa = PBXGroup;
 			children = (
+				831191602AF2B8FB007FE1FF /* ViewController.swift */,
+				831191812AF2E554007FE1FF /* Views */,
+				831191732AF2BC37007FE1FF /* Data Models */,
+				831191702AF2BBEC007FE1FF /* Note API Configs */,
 				8311915C2AF2B8FB007FE1FF /* AppDelegate.swift */,
 				8311915E2AF2B8FB007FE1FF /* SceneDelegate.swift */,
-				831191602AF2B8FB007FE1FF /* ViewController.swift */,
 				831191622AF2B8FB007FE1FF /* Main.storyboard */,
 				831191652AF2B8FD007FE1FF /* Assets.xcassets */,
 				831191672AF2B8FD007FE1FF /* LaunchScreen.storyboard */,
 				8311916A2AF2B8FD007FE1FF /* Info.plist */,
 			);
 			path = WA7_He_8274;
+			sourceTree = "<group>";
+		};
+		831191702AF2BBEC007FE1FF /* Note API Configs */ = {
+			isa = PBXGroup;
+			children = (
+				831191712AF2BC0C007FE1FF /* APIConfigs.swift */,
+			);
+			path = "Note API Configs";
+			sourceTree = "<group>";
+		};
+		831191732AF2BC37007FE1FF /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				831191742AF2BD80007FE1FF /* Note.swift */,
+				831191762AF2C001007FE1FF /* User.swift */,
+				831191782AF2C016007FE1FF /* UserNames.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		8311917C2AF2E4AD007FE1FF /* Note List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				831191922AF2E650007FE1FF /* TableViewNoteCell.swift */,
+				831191942AF2E689007FE1FF /* NoteListView.swift */,
+			);
+			path = "Note List Screen";
+			sourceTree = "<group>";
+		};
+		8311917D2AF2E4C2007FE1FF /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				831191902AF2E630007FE1FF /* LoginViewController.swift */,
+				8311918E2AF2E624007FE1FF /* LoginView.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		8311917E2AF2E528007FE1FF /* Register Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8311918A2AF2E603007FE1FF /* RegisterViewController.swift */,
+				8311918C2AF2E615007FE1FF /* RegisterView.swift */,
+			);
+			path = "Register Screen";
+			sourceTree = "<group>";
+		};
+		8311917F2AF2E52E007FE1FF /* Note Details Screen */ = {
+			isa = PBXGroup;
+			children = (
+				831191882AF2E5F3007FE1FF /* NoteDetailsViewController.swift */,
+				831191862AF2E5E5007FE1FF /* NoteDetailsView.swift */,
+			);
+			path = "Note Details Screen";
+			sourceTree = "<group>";
+		};
+		831191802AF2E542007FE1FF /* Profile Details Screen */ = {
+			isa = PBXGroup;
+			children = (
+				831191822AF2E5BD007FE1FF /* ProfileDetailsViewController.swift */,
+				831191842AF2E5CB007FE1FF /* ProfileDetailsView.swift */,
+			);
+			path = "Profile Details Screen";
+			sourceTree = "<group>";
+		};
+		831191812AF2E554007FE1FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				831191802AF2E542007FE1FF /* Profile Details Screen */,
+				8311917F2AF2E52E007FE1FF /* Note Details Screen */,
+				8311917E2AF2E528007FE1FF /* Register Screen */,
+				8311917D2AF2E4C2007FE1FF /* Login Screen */,
+				8311917C2AF2E4AD007FE1FF /* Note List Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6A8AFD0B3233FA972E8A95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A65487064C25F115F039294 /* Pods_WA7_He_8274.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8311916D2AF2B8FD007FE1FF /* Build configuration list for PBXNativeTarget "WA7_He_8274" */;
 			buildPhases = (
+				28F3175B4C24DA34FDA386C2 /* [CP] Check Pods Manifest.lock */,
 				831191552AF2B8FB007FE1FF /* Sources */,
 				831191562AF2B8FB007FE1FF /* Frameworks */,
 				831191572AF2B8FB007FE1FF /* Resources */,
+				0A3E3AA735BE32889E89D42D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +265,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A3E3AA735BE32889E89D42D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_He_8274/Pods-WA7_He_8274-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_He_8274/Pods-WA7_He_8274-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WA7_He_8274/Pods-WA7_He_8274-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28F3175B4C24DA34FDA386C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WA7_He_8274-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		831191552AF2B8FB007FE1FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831191952AF2E689007FE1FF /* NoteListView.swift in Sources */,
+				831191792AF2C016007FE1FF /* UserNames.swift in Sources */,
+				831191752AF2BD80007FE1FF /* Note.swift in Sources */,
+				8311918D2AF2E615007FE1FF /* RegisterView.swift in Sources */,
+				831191912AF2E630007FE1FF /* LoginViewController.swift in Sources */,
 				831191612AF2B8FB007FE1FF /* ViewController.swift in Sources */,
+				8311918B2AF2E603007FE1FF /* RegisterViewController.swift in Sources */,
+				831191872AF2E5E5007FE1FF /* NoteDetailsView.swift in Sources */,
+				831191772AF2C001007FE1FF /* User.swift in Sources */,
 				8311915D2AF2B8FB007FE1FF /* AppDelegate.swift in Sources */,
+				8311918F2AF2E624007FE1FF /* LoginView.swift in Sources */,
+				831191722AF2BC0C007FE1FF /* APIConfigs.swift in Sources */,
+				831191932AF2E650007FE1FF /* TableViewNoteCell.swift in Sources */,
+				831191892AF2E5F3007FE1FF /* NoteDetailsViewController.swift in Sources */,
+				831191852AF2E5CB007FE1FF /* ProfileDetailsView.swift in Sources */,
 				8311915F2AF2B8FB007FE1FF /* SceneDelegate.swift in Sources */,
+				831191832AF2E5BD007FE1FF /* ProfileDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +470,7 @@
 		};
 		8311916E2AF2B8FD007FE1FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40A8FA614FE1C798BD0CD65 /* Pods-WA7_He_8274.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +499,7 @@
 		};
 		8311916F2AF2B8FD007FE1FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17602DE8A74FDB2076CC13A1 /* Pods-WA7_He_8274.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
